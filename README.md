@@ -56,16 +56,16 @@ nl, Newfoundland and Labrador,  St. John's,   370 511 km², en|eastern canada|at
 
 **Easy-to-write. Less (typing) is better.**
 
-- No quotes needed for values, that is, write `Halifax` and not `"Halifax"`. Requiring quotes (`"..."` or `'...'`) is a no-no.   
+- No quotes needed for values, that is, write `Halifax`. Requiring quotes (`"Halifax"` or `'Halifax'`) is a no-no.   
 
 
 **Easy-to-read.** 
 
 - Comments, comments, comments.
-- Use space to format your datasets, that is, `bc, British Columbia,    Victoria` is the same as `bc,British Columbia,Victoria`.
+- Use space (freely) to format (beautify) your records, that is, `bc, British Columbia,    Victoria` is the same as `bc,British Columbia,Victoria`.
 - Blank lines.
 
-**Human. Practical (proven) alternatives.**
+**Human. Practical (time-proven) alternatives for quotes and multi-line values.**
 
 - Use dual quotes e.g. `"..."` or `'...'`.
 - Use here documents e.g. `<<TXT ... TXT` for multi-line values.
@@ -84,7 +84,8 @@ nl, Newfoundland and Labrador,  St. John's,   370 511 km², en|eastern canada|at
 
 **Backwards-Compatible. It's just "vanilla" CVS.**
 
-- Converter ("pre-processor") generates "vanilla" CVS 1.0 from CVS 1.1.
+- "Pre-processor" converts "modern" CVS 1.1 to "vanilla" CVS 1.0.
+
 
 
 
