@@ -26,22 +26,22 @@ mx, México [Mexico], MEX,   1 972 550 km², 112 322 757
 #
 # see en.wikipedia.org/wiki/Provinces_and_territories_of_Canada
 #
-# nb: key is two-letter canadian postal code
+# note: key is two-letter canadian postal code
 #
 # for regions tags see
 #   en.wikipedia.org/wiki/List_of_regions_of_Canada
 
 
-bc, British Columbia,       Victoria,     922_509 km², en|western canada
+bc, British Columbia,       Victoria,     922 509 km², en|western canada
 
-ab, Alberta,                Edmonton,       640_082 km², en|western canada|prairies
-mb, Manitoba,               Winnipeg,       552_330 km², en|western canada|prairies
-sk, Saskatchewan,           Regina,         588_239 km², en|western canada|prairies
+ab, Alberta,                Edmonton,       640 082 km², en|western canada|prairies
+mb, Manitoba,               Winnipeg,       552 330 km², en|western canada|prairies
+sk, Saskatchewan,           Regina,         588 239 km², en|western canada|prairies
 
-nb, New Brunswick,            Fredericton,    71_377 km², en|fr|eastern canada|atlantic canada|maritimes
-ns, Nova Scotia,              Halifax,        52_939 km², en|eastern canada|atlantic canada|maritimes
-pe, Prince Edward Island,     Charlottetown,   5_686 km², en|eastern canada|atlantic canada|maritimes
-nl, Newfoundland and Labrador,  St. John's,   370_511 km², en|eastern canada|atlantic canada
+nb, New Brunswick,            Fredericton,    71 377 km², en|fr|eastern canada|atlantic canada|maritimes
+ns, Nova Scotia,              Halifax,        52 939 km², en|eastern canada|atlantic canada|maritimes
+pe, Prince Edward Island,     Charlottetown,   5 686 km², en|eastern canada|atlantic canada|maritimes
+nl, Newfoundland and Labrador,  St. John's,   370 511 km², en|eastern canada|atlantic canada
 ...
 ```
 
@@ -53,6 +53,23 @@ nl, Newfoundland and Labrador,  St. John's,   370_511 km², en|eastern canada|at
 
 - Evolving and working with real-world datasets and code ;-). "Eat your own dog food".
 - The long long view. 10 years. 20 years. 30 years. 100 years. Text is forever ;-)
+
+**Less (typing) is better. Easy-to-write.
+
+- No quotes needed for values, that is, write `Halifax` and not `"Halifax"`. Requiring quotes (`"..."` or `'...'`) is a no-no.   
+
+
+**Easy-to-read. 
+
+- Comments, comments, comments.
+- Use space to format your datasets, that is, `bc, British Columbia,    Victoria` is the same as `bc,British Columbia,Victoria`.
+- Blank lines.
+
+**Human. Practical (proven) alternatives.**
+
+- Use dual quotes e.g. `"..."` or `'...'`.
+- Use here documents e.g. `<<TXT ... TXT`.
+- Use triple quotes e.g. `"""..."""` or `'''...'''` for multi-line values or mixed quote escaping.
 
 
 
