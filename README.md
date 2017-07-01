@@ -54,7 +54,7 @@ nl, Newfoundland and Labrador,  St. John's,   370 511 km², en|eastern canada|at
 - Evolving and working with real-world datasets and code ;-). "Eat your own dog food".
 - The long long view. 10 years. 20 years. 30 years. 100 years. Text is forever ;-)
 
-**Less (typing) is better. Easy-to-write.**
+**Easy-to-write. Less (typing) is better.**
 
 - No quotes needed for values, that is, write `Halifax` and not `"Halifax"`. Requiring quotes (`"..."` or `'...'`) is a no-no.   
 
@@ -82,6 +82,9 @@ nl, Newfoundland and Labrador,  St. John's,   370 511 km², en|eastern canada|at
 - Auto-generate record ids from names / titles.
 - Optional "front matter" block with defaults / fallbacks (e.g. `country: Canada`).
 
+**Backwards-Compatible. It's just "vanilla" CVS.**
+
+- Converter ("pre-processor") generates "vanilla" CVS 1.0 from CVS 1.1.
 
 
 
