@@ -54,12 +54,12 @@ nl, Newfoundland and Labrador,  St. John's,   370 511 km², en|eastern canada|at
 - Evolving and working with real-world datasets and code ;-). "Eat your own dog food".
 - The long long view. 10 years. 20 years. 30 years. 100 years. Text is forever ;-)
 
-**Less (typing) is better. Easy-to-write.
+**Less (typing) is better. Easy-to-write.**
 
 - No quotes needed for values, that is, write `Halifax` and not `"Halifax"`. Requiring quotes (`"..."` or `'...'`) is a no-no.   
 
 
-**Easy-to-read. 
+**Easy-to-read.** 
 
 - Comments, comments, comments.
 - Use space to format your datasets, that is, `bc, British Columbia,    Victoria` is the same as `bc,British Columbia,Victoria`.
@@ -68,8 +68,19 @@ nl, Newfoundland and Labrador,  St. John's,   370 511 km², en|eastern canada|at
 **Human. Practical (proven) alternatives.**
 
 - Use dual quotes e.g. `"..."` or `'...'`.
-- Use here documents e.g. `<<TXT ... TXT`.
+- Use here documents e.g. `<<TXT ... TXT` for multi-line values.
 - Use triple quotes e.g. `"""..."""` or `'''...'''` for multi-line values or mixed quote escaping.
+
+**Human. Options. Options. Options.**
+
+- No fixed number of fields.
+- Use single-line or multi-line records.
+- Use "classic" values "by position" or named values (e.g. `city: Halifax`).
+
+**Conventions. Let the computer help you (auto-)fill-in values.**
+
+- Auto-generate record ids from names / titles.
+- Optional "front matter" block with defaults / fallbacks (e.g. `country: Canada`).
 
 
 
