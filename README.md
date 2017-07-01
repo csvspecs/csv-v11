@@ -56,7 +56,7 @@ nl, Newfoundland and Labrador,  St. John's,   370 511 km², en|eastern canada|at
 
 **Easy-to-write. Less (typing) is better.**
 
-- No quotes needed for values, that is, write `Halifax`. Requiring quotes (`"Halifax"` or `'Halifax'`) is a no-no.   
+- No quotes needed for values, that is, write `Halifax`. Requiring quotes e.g. `"Halifax"` or `'Halifax'` is a no-no.   
 
 
 **Easy-to-read.** 
@@ -73,7 +73,7 @@ nl, Newfoundland and Labrador,  St. John's,   370 511 km², en|eastern canada|at
 
 **Human. Options. Options. Options.**
 
-- No fixed number of fields.
+- No required fixed number of fields for records.
 - Use single-line or multi-line records.
 - Use "classic" values "by position" or named values (e.g. `city: Halifax`).
 
