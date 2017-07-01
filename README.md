@@ -7,20 +7,52 @@ _CSV Evolved (for Humans) - Easy-to-Write, Easy-to-Read_
 
 ```
 #####################
-# north america
+# North America
 
 # area (in sq km), pop(ulation)
 
-ca, Canada,          CAN,   9_984_670 km²,  34_278_406
-us, United States,   USA,   9_629_091 km², 314_167_157
-mx, México [Mexico], MEX,   1_972_550 km², 112_322_757
-
+ca, Canada,          CAN,   9 984 670 km²,  34 278 406
+us, United States,   USA,   9 629 091 km², 314 167 157
+mx, México [Mexico], MEX,   1 972 550 km², 112 322 757
+...
 ```
 
 (Source: [world.db/north-america/countries.txt](https://github.com/openmundi/world.db/blob/master/north-america/countries.txt))
 
 
+```
+###########################
+# Oh, Canada! 10 provinces and 3 territories
+#
+# see en.wikipedia.org/wiki/Provinces_and_territories_of_Canada
+#
+# nb: key is two-letter canadian postal code
+#
+# for regions tags see
+#   en.wikipedia.org/wiki/List_of_regions_of_Canada
+
+
+bc, British Columbia,       Victoria,     922_509 km², en|western canada
+
+ab, Alberta,                Edmonton,       640_082 km², en|western canada|prairies
+mb, Manitoba,               Winnipeg,       552_330 km², en|western canada|prairies
+sk, Saskatchewan,           Regina,         588_239 km², en|western canada|prairies
+
+nb, New Brunswick,            Fredericton,    71_377 km², en|fr|eastern canada|atlantic canada|maritimes
+ns, Nova Scotia,              Halifax,        52_939 km², en|eastern canada|atlantic canada|maritimes
+pe, Prince Edward Island,     Charlottetown,   5_686 km², en|eastern canada|atlantic canada|maritimes
+nl, Newfoundland and Labrador,  St. John's,   370_511 km², en|eastern canada|atlantic canada
+...
+```
+
+(Source: [world.db/master/north-america/ca-canada/regions.txt](https://github.com/openmundi/world.db/blob/master/north-america/ca-canada/regions.txt))
+
+
+
 ## Design Principles
+
+- Evolving and working with real-world datasets and code ;-). "Eat your own dog food".
+- The long long view. 10 years. 20 years. 30 years. 100 years. Text is forever ;-)
 
 
 
