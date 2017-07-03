@@ -5,6 +5,17 @@
 
 _CSV Evolved (for Humans) - Easy-to-Write, Easy-to-Read_
 
+
+```
+ID,Name,Code,Area,Pop
+ca,Canada,CAN,9984670,34278406
+us,United States,USA,9629091,314167157
+mx,México [Mexico],MEX,1972550,112322757
+...
+```
+
+vs
+
 ```
 #####################
 # North America
@@ -19,17 +30,22 @@ mx, México [Mexico], MEX,   1 972 550 km², 112 322 757
 
 (Source: [world.db/north-america/countries.txt](https://github.com/openmundi/world.db/blob/master/north-america/countries.txt))
 
-vs
+Or
 
 ```
-ID,Name,Code,Area,Pop
-ca,Canada,CAN,9984670,34278406
-us,United States,USA,9629091,314167157
-mx,México [Mexico],MEX,1972550,112322757
+ID,Name,Capital,Area,Tags
+bc,British Columbia,Victoria,922509,en|western canada
+ab,Alberta,Edmonton,640082,en|western canada|prairies
+mb,Manitoba,Winnipeg,552330,en|western canada|prairies
+sk,Saskatchewan,Regina,588239,en|western canada|prairies
+nb,New Brunswick,Fredericton,71377,en|fr|eastern canada|atlantic canada|maritimes
+ns,Nova Scotia,Halifax,52939,en|eastern canada|atlantic canada|maritimes
+pe,Prince Edward Island,Charlottetown,5686,en|eastern canada|atlantic canada|maritimes
+nl,Newfoundland and Labrador,St. John's,370511,en|eastern canada|atlantic canada
 ...
 ```
 
-Or
+vs
 
 ```
 ###########################
@@ -58,20 +74,6 @@ nl, Newfoundland and Labrador,  St. John's,   370 511 km², en|eastern canada|at
 
 (Source: [world.db/master/north-america/ca-canada/regions.txt](https://github.com/openmundi/world.db/blob/master/north-america/ca-canada/regions.txt))
 
-vs
-
-```
-ID,Name,Capital,Area,Tags
-bc,British Columbia,Victoria,922509,en|western canada
-ab,Alberta,Edmonton,640082,en|western canada|prairies
-mb,Manitoba,Winnipeg,552330,en|western canada|prairies
-sk,Saskatchewan,Regina,588239,en|western canada|prairies
-nb,New Brunswick,Fredericton,71377,en|fr|eastern canada|atlantic canada|maritimes
-ns,Nova Scotia,Halifax,52939,en|eastern canada|atlantic canada|maritimes
-pe,Prince Edward Island,Charlottetown,5686,en|eastern canada|atlantic canada|maritimes
-nl,Newfoundland and Labrador,St. John's,370511,en|eastern canada|atlantic canada
-...
-```
 
 
 ## Design Principles
