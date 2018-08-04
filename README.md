@@ -1,7 +1,10 @@
-[CSV 1.1 @ GitHub](https://github.com/csv11)
-
-
 # CSV 1.1 - Comma Separated (Named) Values, Version: 1.1
+
+
+<!--
+ todo: add githb banner with include
+   [CSV 1.1 @ GitHub](https://github.com/csv11)
+-->
 
 _CSV Evolved (for Humans) - Easy-to-Write, Easy-to-Read_
 
