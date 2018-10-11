@@ -112,9 +112,9 @@ nl, Newfoundland and Labrador,  St. John's,   370 511 km², en|eastern canada|at
 - Auto-generate record ids from names / titles.
 - Optional "front matter" block with defaults / fallbacks (e.g. `country: Canada`).
 
-**Backwards-Compatible. It's just "vanilla" CVS.**
+**Backwards-Compatible. It's just "vanilla" CSV.**
 
-- "Pre-processor" converts "modern" CVS 1.1 to "vanilla" CVS 1.0.
+- "Pre-processor" converts "modern" CSV 1.1 to "vanilla" CSV 1.0.
 
 
 
